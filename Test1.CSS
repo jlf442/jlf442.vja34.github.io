@@ -27,7 +27,7 @@ background-color: #F8F8FF
 
 /* Style the current/active link */
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #f0c263;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */

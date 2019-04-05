@@ -2,25 +2,33 @@ html
 {
 background-color: #F8F8FF
 }
-body{
-        margin:0px;
-        background:#000;
-    }   
-    header-cont{ width:100%; postion:fixed; top:0px; }
-    header{
-              height:50px;
-              background:#ffffff;
-              border:1px solid #CCC;
-              width:960px;
-              margin:0px auto;
-            } 
-    content{
-              width:960px;
-              background:#ffffff;
-              border: 1px solid #CCC;
-              height: 2000px;
-              margin: 70px auto;
-            }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 p
  {
   font-family: cursive;

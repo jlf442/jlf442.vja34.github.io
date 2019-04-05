@@ -4,14 +4,14 @@ background-color: #F8F8FF
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #f5d89c;
+  background-color: #f0c263;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: center;
-  color: #f0c263;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

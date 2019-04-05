@@ -2,25 +2,27 @@ html
 {
 background-color: #F8F8FF
 }
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-/* Style the header links */
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
+body{
+        margin:0px;
+        background:#000;
+    }   
+    .header-cont{ width:100%; postion:fixed; top:0px; }
+    .header{
+              height:50px;
+              background:#ffffff;
+              border:1px solid #CCC;
+              width:960px;
+              margin:0px auto;
+            } 
+    .content{
+              width:960px;
+              background:#ffffff;
+              border: 1px solid #CCC;
+              height: 2000px;
+              margin: 70px auto;
+            }
 p
-{
+ {
   font-family: cursive;
   font-size: large;
   color: #0000ff;
@@ -34,3 +36,4 @@ h1
   text-decoration: underline;
   color: #ff0000;
 }
+

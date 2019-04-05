@@ -3,23 +3,6 @@ html
 background-color: #F8F8FF
 }
 
- body, html {
-  height: 100%;
-}
-
-.bg { 
-  /* The image used */
-  background-image: url("undermaintenance2.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* Style the navigation menu */
 .navbar {
   width: 100%;

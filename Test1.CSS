@@ -46,27 +46,31 @@ p
   color: #0000ff;
   background-color: #ffff00;
 }
+  
 h1
 {
-  font-family: "Times New Roman",Georgia,serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
   color: #ff0000;
 }
+  
 h2
 {
-  font-family: "Times New Roman",Georgia,serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 30px;
   text-align: center;
   text-decoration: italic;
 }
+  
 h3
 {
-  font-family: "Times New Roman",Georgia,serif;
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 20px;
   text-align: center;
 }
+  
 table
 {
   text-align: center;

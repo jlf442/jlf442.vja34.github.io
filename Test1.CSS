@@ -6,15 +6,15 @@ body{
         margin:0px;
         background:#000;
     }   
-    .header-cont{ width:100%; postion:fixed; top:0px; }
-    .header{
+    header-cont{ width:100%; postion:fixed; top:0px; }
+    header{
               height:50px;
               background:#ffffff;
               border:1px solid #CCC;
               width:960px;
               margin:0px auto;
             } 
-    .content{
+    content{
               width:960px;
               background:#ffffff;
               border: 1px solid #CCC;

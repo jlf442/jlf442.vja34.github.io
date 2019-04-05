@@ -27,7 +27,7 @@ background-color: #F8F8FF
 
 /* Style the current/active link */
 .navbar a.active {
-  background-color: #f0c263;
+  background-color: #4CAF50;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -54,4 +54,11 @@ h1
   text-decoration: underline;
   color: #ff0000;
 }
-
+h2
+{
+  font-family: "Times New Roman",Georgia,serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: italic;
+}
+   

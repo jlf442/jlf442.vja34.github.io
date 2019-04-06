@@ -1,4 +1,76 @@
-* {box-sizing: border-box}
+html
+{
+background-color: #F8F8FF
+}
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #f0c263;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+
+p
+ {
+  font-family: cursive;
+  font-size: large;
+  color: #0000ff;
+  background-color: #ffff00;
+}
+  
+h1
+{
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ff0000;
+}
+  
+h2
+{
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: italic;
+}
+  
+h3
+{
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+}* {box-sizing: border-box}
 
 /* Style the tab */
 .tab {

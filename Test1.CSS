@@ -39,15 +39,7 @@ background-color: #F8F8FF
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
-
-p
- {
-  font-family: cursive;
-  font-size: large;
-  color: #0000ff;
-  background-color: #ffff00;
-}
-  
+ 
 h1
 {
   font-family: "Times New Roman", Georgia, serif;
